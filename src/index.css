@@ -1,6 +1,17 @@
+* {
+  padding: 0; /* Reset `padding` and `margin` of all elements */
+  margin: 0;
+}
+
 body {
   font: 14px "Century Gothic", Futura, sans-serif;
-  margin: 20px;
+  margin: 60px 20%;
+}
+
+@media screen and (max-width: 499px) {
+  body {
+    margin: 60px 40px;
+  }
 }
 
 ol, ul {
@@ -47,4 +58,14 @@ ol, ul {
 
 .game-info {
   margin-left: 20px;
+}
+
+.discription {
+  display: block;
+  margin-bottom: 30px;
+}
+
+.right {
+  text-align: right;
+  margin-bottom: 20px;
 }
